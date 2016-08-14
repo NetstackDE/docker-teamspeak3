@@ -10,9 +10,6 @@ tar --directory /home/ts3 -xjf /home/ts3/teamspeak3-server_linux_amd64.tar.bz2
 #remove archive
 rm /home/ts3/teamspeak3-server_linux_amd64.tar.bz2
 
-#debug
-ls -lah /home/ts3
-
 #check Files and link them to the TS3 Server
 if [ -f /data/licensekey.dat ]
 then
