@@ -5,7 +5,7 @@ You can also use a Docker Volume as data storage or mount a host directory.
 
 * Notes & limits
   * Will only work with **Teamspeak Server 64bit** Version !
-  * Based on Ubuntu 16:04 image
+  * Based on Ubuntu 16.04 image
 
 
 You can mount a Directory or Docker Volume Container with license file and other stuff.
