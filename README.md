@@ -27,8 +27,9 @@ Possible content of the directory (example: /path/to/test-data ):
 
 You can set the following ENV Vars.
 
-**LANG** default-value: en_US.UTF-8
-**TEAMSPEAK_DOWNLOAD_URL** default-value: http://dl.4players.de/ts/releases/3.0.13/teamspeak3-server_linux_amd64-3.0.13.tar.bz2
+**LANG** default: de_DE.UTF-8
+**LC_ALL** default: de_DE.UTF-8
+**TEAMSPEAK_DOWNLOAD_URL** default: http://dl.4players.de/ts/releases/3.0.13/teamspeak3-server_linux_amd64-3.0.13.tar.bz2
 
 ## Example RUN COMMANDS
 

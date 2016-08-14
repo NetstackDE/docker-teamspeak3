@@ -2,10 +2,15 @@ FROM ubuntu:16.04
 
 MAINTAINER Andreas Pfeiffer <pfeiffer@netstack.de>
 
+#Set Locales
+RUN locale-gen de_DE.UTF-8
+RUN locale-gen en_US.UTF-8
+
 #Environment Variables
 ENV TEAMSPEAK_DOWNLOAD_URL http://dl.4players.de/ts/releases/3.0.13/teamspeak3-server_linux_amd64-3.0.13.tar.bz2
 ENV TS3_UID 2000
-ENV LANG en_US.UTF-8
+ENV LANG de_DE.UTF-8
+ENV LC_ALL de_DE.UTF-8
 
 #Update System
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get upgrade -y
