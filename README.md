@@ -39,6 +39,12 @@ Start Teamspeak Server without any custom data
 docker run --name teamspeak-server -p 9987:9987/udp -p10011:10011 -p30033:30033 -d netstack/docker-teamspeak3:latest
 ```
 
+Start Teamspeak Server with en_US.UTF-8 locales
+
+```bash
+docker run --name teamspeak-server -p 9987:9987/udp -p10011:10011 -p30033:30033 -e LANG=en_US.UTF-8 -e LC_ALL=en_US.UTF-8 -d netstack/docker-teamspeak3:latest
+```
+
 Start Teamspeak Server with a specific TeamSpeak Version
 
 ```bash
