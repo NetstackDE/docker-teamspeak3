@@ -13,6 +13,7 @@ Possible content of the directory (example: /path/to/test-data ):
 
   * test-data/
     * licensekey.dat
+    * ts3server.sqlitedb
     * files/
       * virtualserver_1
         * internal
