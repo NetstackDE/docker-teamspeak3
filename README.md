@@ -8,7 +8,7 @@ You can also use a Docker Volume as data storage or mount a host directory.
   * Based on Ubuntu 16.04 image
 
 
-You can mount a Directory or Docker Volume Container with license file and other stuff.
+You can mount a Directory or Docker Volume Container with license file and other stuff to **/data** in the Container.
 Possible content of the directory (example: /path/to/test-data ):
 
   * test-data/
@@ -22,6 +22,7 @@ Possible content of the directory (example: /path/to/test-data ):
     * query_ip_whitelist.txt
 
 **Note:** The Files Directory have to be a backup from another Teamspeak Server as this have to follow a special directory structure.  
+**Container-Mountpoint:** **/data**
 
 ## Environment VARIABLES
 
