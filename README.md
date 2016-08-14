@@ -23,6 +23,13 @@ Possible content of the directory (example: /path/to/test-data ):
 
 **Note:** The Files Directory have to be a backup from another Teamspeak Server as this have to follow a special directory structure.  
 
+## Environment VARIABLES
+
+You can set the following ENV Vars.
+
+**LANG** default-value: en_US.UTF-8
+**TEAMSPEAK_DOWNLOAD_URL** default-value: http://dl.4players.de/ts/releases/3.0.13/teamspeak3-server_linux_amd64-3.0.13.tar.bz2
+
 ## Example RUN COMMANDS
 
 Start Teamspeak Server without any custom data
