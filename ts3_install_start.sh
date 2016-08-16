@@ -10,6 +10,9 @@ tar --directory /home/ts3 -xjf /home/ts3/teamspeak3-server_linux_amd64.tar.bz2
 #remove archive
 rm /home/ts3/teamspeak3-server_linux_amd64.tar.bz2
 
+#debug
+ls -lah /data
+
 #check Files and link them to the TS3 Server
 if [ -f /data/licensekey.dat ]
 then
@@ -26,12 +29,19 @@ then
   echo "Found WhitelistFile";
   ln -s /data/query_ip_whitelist.txt /home/ts3/teamspeak3-server_linux_amd64/query_ip_whitelist.txt
 fi
+#if Volume is mounted create database file on volume
+if [ -d /data ] && [ ! -f /data/ts3server.sqlitedb ]
+then
+  touch /data/ts3server.sqlitedb
+fi
 if [ -f /data/ts3server.sqlitedb ]
 then
   echo "Found ts3server Database file"
   ln -s /data/ts3server.sqlitedb /home/ts3/teamspeak3-server_linux_amd64/ts3server.sqlitedb
 fi
 
+#debug
+ls -lah /data
 
 #check if there is a files directory and copy it to the Server directory
 if [ -d /data/files ]
