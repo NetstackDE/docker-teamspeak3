@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 MAINTAINER Andreas Pfeiffer <pfeiffer@netstack.de>
 
 #Set Locales
-RUN locale-gen de_DE.UTF-8
+#RUN locale-gen de_DE.UTF-8
 RUN locale-gen en_US.UTF-8
 
 #Environment Variables
