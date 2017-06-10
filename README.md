@@ -1,4 +1,4 @@
-[![Docker Build Statu](https://img.shields.io/docker/build/netstack/docker-teamspeak3.svg)](https://hub.docker.com/r/netstack/docker-teamspeak3/builds/)  [![Docker Automated buil](https://img.shields.io/docker/automated/netstack/docker-teamspeak3.svg)](#)
+[![Docker Build Statu](https://img.shields.io/docker/build/netstack/docker-teamspeak3.svg)](https://hub.docker.com/r/netstack/docker-teamspeak3/builds/)  [![Docker Automated buil](https://img.shields.io/docker/automated/netstack/docker-teamspeak3.svg)](#) [![license](https://img.shields.io/github/license/NetstackDE/docker-teamspeak3.svg)](#)
  
 # Teamspeak3 Docker Image
 
